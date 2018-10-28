@@ -106,7 +106,7 @@ section{
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image:url('/extra-images/full-banner-img.jpg');
+    background-image:url('../extra-images/full-banner-img.jpg');
 }
 .banner-header{
     background-color: transparent;
@@ -732,10 +732,10 @@ section{
     content: "";
     position: absolute;
     background-color: red;
-    -webkit-mask-image: url(images/shape.svg);
-    mask-image: url(images/shape.svg);
-    -webkit-mask: url(images/shape.svg) no-repeat 100% 100%;
-    mask: url(images/shape.svg) no-repeat 100% 100%;
+    -webkit-mask-image: url(/images/shape.svg);
+    mask-image: url(/images/shape.svg);
+    -webkit-mask: url(/images/shape.svg) no-repeat 100% 100%;
+    mask: url(/images/shape.svg) no-repeat 100% 100%;
     -webkit-mask-size: cover;
     mask-size: cover;
 }
@@ -1183,10 +1183,10 @@ section{
     right: 0;
     content: "";
     background-color: red;
-    -webkit-mask-image: url(/images/footer-bg.svg);
-    mask-image: url(/images/footer-bg.svg);
-    -webkit-mask: url(/images/footer-bg.svg) no-repeat 100% 100%;
-    mask: url(/images/footer-bg.svg) no-repeat 100% 100%;
+    -webkit-mask-image: url(../images/footer-bg.svg);
+    mask-image: url(../images/footer-bg.svg);
+    -webkit-mask: url(../images/footer-bg.svg) no-repeat 100% 100%;
+    mask: url(../images/footer-bg.svg) no-repeat 100% 100%;
     -webkit-mask-size: cover;
     mask-size: cover;
     mask-position: center;
@@ -1394,7 +1394,7 @@ section{
     background-size:cover;
     background-position: center;  
     background-repeat:no-repeat;
-    background-image: url('/extra-images/testimonial-bg.jpg');
+    background-image: url('../extra-images/testimonial-bg.jpg');
 }
 .testimonial-bg::before{
     opacity: 0.95;
