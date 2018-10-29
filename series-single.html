@@ -2,9 +2,9 @@
 <html lang="zxx">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="robots" content="index, follow" >
         <meta name="author" content="IDStack - Situs Belajar Online Bahasa Indonesia" > 
         <meta name="description" content="Temukan video tutorial dengan Bahasa Indonesia sesuai hobimu! Tempat Belajar Praktis untuk orang-orang hebat!" > 
@@ -21,8 +21,9 @@
         <meta property="og:title" content="IDStack - Situs Belajar Online Bahasa Indonesia" />
         <meta property="og:description" content="Temukan video tutorial dengan Bahasa Indonesia sesuai hobimu! Tempat Belajar Praktis untuk orang-orang hebat!" />
         <meta property="og:image" content="https://idstack.net/assets/images/cover/idstack-cover.png">
+
         <meta name="theme-color" content="#4b6fff">
-        <title>IDStack | Situs Belajar Online Bahasa Indonesia</title>
+		<title>IDStack | Situs Belajar Online Bahasa Indonesia</title>
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <!-- Slick Slider CSS -->
@@ -51,6 +52,22 @@
         <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
         <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
         <link rel="icon" sizes="192x192" href="images/favicon/icon-192x192.png">
+
+        <style lang="">
+            .oscar-header-1 {
+                padding: 0;
+                /* background: red; */
+                min-height: 70vh;
+                position: relative;
+                background-size:cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image:url('../extra-images/full-banner-img.jpg');
+            }
+            footer, .section,section{
+                padding: 30px 0 60px;
+            }
+        </style>
     </head>
     <body>
         <!-- LOADER --> 
@@ -98,16 +115,25 @@
                 <!-- Static Banner Wrap -->
                 <div class="full-page-bg">
                     <div class="container">
-                        <div class="banner-caption banner-inner-caption">
-                            <h1 class="banner-title">Series Lists</h1>
-                            <p>Temukan video tutorial yang kamu mau di sini bersama IDStack. Tutorial dengan Bahasa Indonesia agar memudahkan kamu untuk belajar dengan kualitas materi yang gak main-main! </p>
-                            <div class="widget widget-search">
-                                <form class="form-search input-field" id="searchForm" action="page-search-results.html" method="get">
-                                    <input class="form-control" value="" name="q" id="q" placeholder="Type Keywords..." type="text">
-                                    <label class="search-icon"><input class="btn th-cl" type="submit" value="Search"></label>
-                                </form>
+                        <div class="bg-dark-alfa-80 thumb">
+                            <div id="" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="extra-images/blog-detail-video.jpg" alt="" style="width:100%;">
+                                        <a class="video-btn popup-youtube" href="https://www.youtube.com/embed/tgbNymZ7vqY" style="margin-top:200px"><span></span></a>
+                                                                        
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                        </div>
+                        </div><!-- /Intro Thumb End -->
                     </div>
                 </div>
                 <!-- /Static Banner Wrap -->
@@ -126,117 +152,44 @@
                 <section class="gray-bg">
                     <div class="container">
                         <div class="row">
+                            <div class="col-md-12">
+                                <!-- Blog Detail Thumb Start -->
+                                <div class="blog-thumb blog-detail-thumb">
+                                    <div class="text">
+                                        <p>Lorem ipsum lobortis praesent auctor quis euismod torquent per neque commodo class malesuada cubilia scelerisque pharetra fringilla egestas, lacus vestibulum phasellus quam quis urna curae feugiat orci blandit felis class sem aliquam torquent Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                        <p>Modi asperiores quae ullam sapiente, id, ex incidunt aspernatur deserunt cumque voluptate optio numquam animi veritatis tenetur. Aliquid, nam! Laboriosam quas voluptatum nemo accusamus eaque tempore fugit est doloremque amet, cumque veritatis ipsum inventore vitae corporis praesentium harum quam natus. </p>
+                                    </div>
+                                </div>
+                                <!-- /Blog Detail Thumb End -->
+                            </div>
+                        </div>
+                         <div class="row">
                             <div class="col-md-8">
-                                <!-- Blog List Thumb Start -->
+                                <!-- Blog Detail Thumb Start -->
                                 <div class="blog-thumb blog-detail-thumb">
-                                    <figure>
-                                        <img src="extra-images/blog-detail.jpg" alt=""> 
-                                    </figure>
                                     <div class="text">
-                                        <h6 class="title"><a href="series-detail.html">A Story Of The Best Country your next projects live to the audences</a></h6>
-                                        <ul class="blog-meta">
-                                            <li>by<span> Admin</span></li>
-                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
-                                        </ul>
-                                        <p>Lorem ipsum lobortis praesent auctor quis euismod torquent per neque commodo class malesuada cubilia scelerisque pharetra fringilla egestas, lacus vestibulum phasellus quam quis urna curae feugiat orci blandit felis class sem aliquam torquent</p>
-                                        <a class="readmore-btn th-cl icon-btn" href="series-detail.html">Read More</a>
-                                        <div class="pull-right">
-                                            <a href="#"><span class="tag">PHP</span></a> | 
-                                            <a href="#"><span class="tag">12 Lessons</span></a> | 
-                                            <a href="#"><span class="tag">Beginner</span></a>
-                                        </div>
+                                        <p>Lorem ipsum lobortis praesent auctor quis euismod torquent per neque commodo class malesuada cubilia scelerisque pharetra fringilla egestas, lacus vestibulum phasellus quam quis urna curae feugiat orci blandit felis class sem aliquam torquent Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                        <p>Modi asperiores quae ullam sapiente, id, ex incidunt aspernatur deserunt cumque voluptate optio numquam animi veritatis tenetur. Aliquid, nam! Laboriosam quas voluptatum nemo accusamus eaque tempore fugit est doloremque amet, cumque veritatis ipsum inventore vitae corporis praesentium harum quam natus. </p>
                                     </div>
                                 </div>
                                 <!-- /Blog Detail Thumb End -->
-                                <!-- Blog List Thumb Start -->
-                                <div class="blog-thumb blog-detail-thumb">
-                                    <figure>
-                                        <img src="extra-images/blog-detail.jpg" alt=""> 
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="series-detail.html">A Story Of The Best Country your next projects live to the audences</a></h6>
-                                        <ul class="blog-meta">
-                                            <li>by<span> Admin</span></li>
-                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
-                                        </ul>
-                                        <p>Lorem ipsum lobortis praesent auctor quis euismod torquent per neque commodo class malesuada cubilia scelerisque pharetra fringilla egestas, lacus vestibulum phasellus quam quis urna curae feugiat orci blandit felis class sem aliquam torquent</p>
-                                        <a class="readmore-btn th-cl icon-btn" href="series-detail.html">Read More</a>
-                                        <div class="pull-right">
-                                            <a href="#"><span class="tag">PHP</span></a> | 
-                                            <a href="#"><span class="tag">12 Lessons</span></a> | 
-                                            <a href="#"><span class="tag">Beginner</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /Blog Detail Thumb End -->
-                                <!-- Blog List Thumb Start -->
-                                <div class="blog-thumb blog-detail-thumb">
-                                    <figure>
-                                        <img src="extra-images/blog-detail.jpg" alt=""> 
-                                    </figure>
-                                    <div class="text">
-                                        <h6 class="title"><a href="series-detail.html">A Story Of The Best Country your next projects live to the audences</a></h6>
-                                        <ul class="blog-meta">
-                                            <li>by<span> Admin</span></li>
-                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
-                                        </ul>
-                                        <p>Lorem ipsum lobortis praesent auctor quis euismod torquent per neque commodo class malesuada cubilia scelerisque pharetra fringilla egestas, lacus vestibulum phasellus quam quis urna curae feugiat orci blandit felis class sem aliquam torquent</p>
-                                        <a class="readmore-btn th-cl icon-btn" href="series-detail.html">Read More</a>
-                                        <div class="pull-right">
-                                            <a href="#"><span class="tag">PHP</span></a> | 
-                                            <a href="#"><span class="tag">12 Lessons</span></a> | 
-                                            <a href="#"><span class="tag">Beginner</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /Blog Detail Thumb End -->
-                                <nav aria-label="Page navigation">
-                                    <ul class="pager">
-                                        <li>
-                                        <a href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                        </a>
-                                        </li>
-                                        <li><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><a href="#">5</a></li>
-                                        <li>
-                                        <a href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                        </a>
-                                        </li>
-                                    </ul>
-                                </nav>
                             </div>
                             <aside class="col-md-4">
                                 <div class="sidebar-wrap">
-                                    <!-- Widget Level Start-->
+                                    <!-- Widget Source Start-->
                                     <div class="widget widget_categories">
-                                        <h5 class="widget-title">Level</h5><!--/Widget Title End-->
+                                        <h5 class="widget-title">Source</h5><!--/Widget Title End-->
                                         <ul>
-                                            <li><a href="#">Beginner <span class="badge">20</span></a></li>
-                                            <li><a href="#">Intermediate <span class="badge">35</span></a></li>
-                                            <li><a href="#">Advanced <span class="badge">21</span></a></li>
+                                            <li><a href="#">Graphic Design  </a>(20)</li>
+                                            <li><a href="#">Web Development  </a>(35)</li>
+                                            <li><a href="#">Digital Marketing  </a>(21)</li>
+                                            <li><a href="#">Product Prototype  </a>(11)</li>
                                         </ul>
                                     </div>
-                                    <!--/ Widget Level End-->
-                                    <!-- Widget Categories Start-->
-                                    <div class="widget widget_categories">
-                                        <h5 class="widget-title">Software</h5><!--/Widget Title End-->
-                                        <ul>
-                                            <li><a href="#">Laravel <span class="badge">20</span></a></li>
-                                            <li><a href="#">PHP <span class="badge">35</span></a></li>
-                                            <li><a href="#">JavaScript <span class="badge">21</span></a></li>
-                                            <li><a href="#">MySQL <span class="badge">11</span></a></li>
-                                        </ul>
-                                    </div>
-                                    <!--/ Widget Categories End-->
-                                    
-                                    <!-- Widget Categories Start-->
+                                    <!--/ Widget Source End-->
+                                    <!-- Widget Playlist Start-->
                                     <div class="widget widget_blog">
-                                        <h5 class="widget-title">Popular Series</h5><!--/Widget Title End-->
+                                        <h5 class="widget-title">Playlist</h5><!--/Widget Title End-->
                                         <ul>
                                             <li>
                                                 <!-- Recent Blog Thumb Start -->
@@ -247,9 +200,7 @@
                                                     <div class="overflow-text">
                                                         <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
                                                         <ul class="blog-meta">
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">PHP</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">12 Lessons</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">Beginner</span></a>
+                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -264,9 +215,7 @@
                                                     <div class="overflow-text">
                                                         <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
                                                         <ul class="blog-meta">
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">PHP</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">12 Lessons</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">Beginner</span></a>
+                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -281,9 +230,7 @@
                                                     <div class="overflow-text">
                                                         <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
                                                         <ul class="blog-meta">
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">PHP</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">12 Lessons</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">Beginner</span></a>
+                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -298,9 +245,7 @@
                                                     <div class="overflow-text">
                                                         <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
                                                         <ul class="blog-meta">
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">PHP</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">12 Lessons</span></a> | 
-                                                            <a href="#"><span class="tag" style="font-size: 10px;">Beginner</span></a>
+                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -308,16 +253,76 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <!--/ Widget Categories End-->
+                                    <!--/ Widget Playlist End-->
                                 </div>
                             </aside>
                         </div>
                     </div>
                 </section>
                 <!-- /Blog Detail Thumb Section End -->
+                <!-- Blog Thumb Section Start -->
+                <section>
+                    <div class="container">
+                        <div class="oscar-section-heading-1 text-center">
+                            <h6 class="small-title th-cl">Blog Suggection</h6>
+                            <h3 class="title">Similar Blog Post</h3>
+                        </div><!-- / Section Heading --> 
+                        <div class="row blog-slider">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="blog-thumb">
+                                    <figure>
+                                        <img src="extra-images/blog-thumb-1.jpg" alt=""> 
+                                    </figure>
+                                    <div class="text">
+                                        <h6 class="title"><a href="blog-detail.html">Risk gain in this year</a></h6>
+                                        <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
+                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                    </div>
+                                </div><!-- /Blog Thumb End -->
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="blog-thumb">
+                                    <figure>
+                                        <img src="extra-images/blog-thumb-2.jpg" alt=""> 
+                                    </figure>
+                                    <div class="text">
+                                        <h6 class="title"><a href="blog-detail.html">Pellentesque habitant morbi</a></h6>
+                                        <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
+                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                    </div>
+                                </div><!-- /Blog Thumb End -->
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div data-wow-delay="0.6s" class="blog-thumb">
+                                    <figure>
+                                        <img src="extra-images/blog-thumb-3.jpg" alt=""> 
+                                    </figure>
+                                    <div class="text">
+                                        <h6 class="title"><a href="blog-detail.html">Vivamus finibus frin fil anidi</a></h6>
+                                        <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
+                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                    </div>
+                                </div><!-- /Blog Thumb End -->
+                            </div>
+                            <div class="col-md-4 hidden-sm">
+                                <div class="blog-thumb">
+                                    <figure>
+                                        <img src="extra-images/blog-thumb-4.jpg" alt=""> 
+                                    </figure>
+                                    <div class="text">
+                                        <h6 class="title"><a href="blog-detail.html">Lorem ipsum lobortis praesent</a></h6>
+                                        <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
+                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                    </div>
+                                </div><!-- /Blog Thumb End -->
+                            </div>
+                        </div>
+                    </div><!-- / Container -->
+                </section>
+                <!-- /Blog Thumb Section End -->
             </div><!--/Main Contant End-->  
             <!--Newsletter Bar Start-->
-            <div class="newsletter-bar mb-mins-80 gray-bg">
+            <div class="newsletter-bar mb-mins-80">
                 <div class="newsletter-widget center-block">
                     <h6>Subscribe our news letter</h6>
                     <div id="mc_embed_signup" class="input-field nl-form-container clearfix">
@@ -350,7 +355,7 @@
                 </div><!-- / Ul -->
             </div>
             <!--/Newsletter Bar End-->
-            <footer class="osr-footer-1 gray-bg">
+            <footer class="osr-footer-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 col-sm-6">
