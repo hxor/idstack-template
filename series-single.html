@@ -67,6 +67,24 @@
             footer, .section,section{
                 padding: 30px 0 60px;
             }
+            .carousel-control {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                width: 5%;
+                font-size: 20px;
+                color: #fff;
+                text-align: center;
+                text-shadow: 0 1px 2px rgba(0,0,0,.6);
+                background-color: rgba(0,0,0,0);
+                filter: alpha(opacity=50);
+                opacity: .5;
+            }
+            .carousel-inner > .item > iframe {
+                width: 90%;
+                margin: auto;
+            }
         </style>
     </head>
     <body>
@@ -119,9 +137,8 @@
                             <div id="" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img src="extra-images/blog-detail-video.jpg" alt="" style="width:100%;">
-                                        <a class="video-btn popup-youtube" href="https://www.youtube.com/embed/tgbNymZ7vqY" style="margin-top:200px"><span></span></a>
-                                                                        
+                                        <iframe width="560" height="500" src="https://www.youtube-nocookie.com/embed/PS2mIVj8snQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
                                     </div>
                                 </div>
                                 <a class="left carousel-control" href="#" data-slide="prev">
@@ -180,10 +197,8 @@
                                     <div class="widget widget_categories">
                                         <h5 class="widget-title">Source</h5><!--/Widget Title End-->
                                         <ul>
-                                            <li><a href="#">Graphic Design  </a>(20)</li>
-                                            <li><a href="#">Web Development  </a>(35)</li>
-                                            <li><a href="#">Digital Marketing  </a>(21)</li>
-                                            <li><a href="#">Product Prototype  </a>(11)</li>
+                                            <li><a href="#">Github  </a></li>
+                                            <li><a href="#">Laravel.com  </a></li>
                                         </ul>
                                     </div>
                                     <!--/ Widget Source End-->
@@ -192,64 +207,16 @@
                                         <h5 class="widget-title">Playlist</h5><!--/Widget Title End-->
                                         <ul>
                                             <li>
-                                                <!-- Recent Blog Thumb Start -->
-                                                <div class="widget-recent-blog">
-                                                    <figure>
-                                                        <img src="extra-images/recent-blog-1.jpg" alt="">   
-                                                    </figure>
-                                                    <div class="overflow-text">
-                                                        <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
-                                                        <ul class="blog-meta">
-                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <!-- /Recent Blog Thumb End -->
+                                                <i class="fa fa-pause "></i> <a href="">01 Example <span class="label label-default pull-right">1:30</span></a>
                                             </li>
                                             <li>
-                                                <!-- Recent Blog Thumb Start -->
-                                                <div class="widget-recent-blog">
-                                                    <figure>
-                                                        <img src="extra-images/recent-blog-2.jpg" alt="">   
-                                                    </figure>
-                                                    <div class="overflow-text">
-                                                        <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
-                                                        <ul class="blog-meta">
-                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <!-- /Recent Blog Thumb End -->
+                                                <i class="fa fa-play"></i> <a href="">01 Example <span class="label label-default pull-right">1:30</span></a>
                                             </li>
                                             <li>
-                                                <!-- Recent Blog Thumb Start -->
-                                                <div class="widget-recent-blog">
-                                                    <figure>
-                                                        <img src="extra-images/recent-blog-3.jpg" alt="">   
-                                                    </figure>
-                                                    <div class="overflow-text">
-                                                        <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
-                                                        <ul class="blog-meta">
-                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <!-- /Recent Blog Thumb End -->
+                                                <i class="fa fa-play"></i> <a href="">01 Example <span class="label label-default pull-right">1:30</span></a>
                                             </li>
                                             <li>
-                                                <!-- Recent Blog Thumb Start -->
-                                                <div class="widget-recent-blog">
-                                                    <figure>
-                                                        <img src="extra-images/recent-blog-4.jpg" alt="">   
-                                                    </figure>
-                                                    <div class="overflow-text">
-                                                        <h6 class="title"><a href="#">How to Make a Website Very Easily with API</a></h6>
-                                                        <ul class="blog-meta">
-                                                            <li><time datetime="2018-11-12">29 Dec. 2018</time></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <!-- /Recent Blog Thumb End -->
+                                                <i class="fa fa-play"></i> <a href="">01 Example <span class="label label-default pull-right">1:30</span></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -264,8 +231,8 @@
                 <section>
                     <div class="container">
                         <div class="oscar-section-heading-1 text-center">
-                            <h6 class="small-title th-cl">Blog Suggection</h6>
-                            <h3 class="title">Similar Blog Post</h3>
+                            <h6 class="small-title th-cl">Series Suggection</h6>
+                            <h3 class="title">Similar Series</h3>
                         </div><!-- / Section Heading --> 
                         <div class="row blog-slider">
                             <div class="col-md-4 col-sm-6">
@@ -274,9 +241,11 @@
                                         <img src="extra-images/blog-thumb-1.jpg" alt=""> 
                                     </figure>
                                     <div class="text">
-                                        <h6 class="title"><a href="blog-detail.html">Risk gain in this year</a></h6>
+                                        <h6 class="title"><a href="series-detail.html">Risk gain in this year</a></h6>
                                         <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
-                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                        <a href="#"><span class="tag">PHP</span></a> | 
+                                        <a href="#"><span class="tag">12 Lessons</span></a> | 
+                                        <a href="#"><span class="tag">Beginner</span></a>
                                     </div>
                                 </div><!-- /Blog Thumb End -->
                             </div>
@@ -286,9 +255,11 @@
                                         <img src="extra-images/blog-thumb-2.jpg" alt=""> 
                                     </figure>
                                     <div class="text">
-                                        <h6 class="title"><a href="blog-detail.html">Pellentesque habitant morbi</a></h6>
+                                        <h6 class="title"><a href="series-detail.html">Pellentesque habitant morbi</a></h6>
                                         <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
-                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                        <a href="#"><span class="tag">PHP</span></a> | 
+                                        <a href="#"><span class="tag">12 Lessons</span></a> | 
+                                        <a href="#"><span class="tag">Beginner</span></a>
                                     </div>
                                 </div><!-- /Blog Thumb End -->
                             </div>
@@ -298,9 +269,11 @@
                                         <img src="extra-images/blog-thumb-3.jpg" alt=""> 
                                     </figure>
                                     <div class="text">
-                                        <h6 class="title"><a href="blog-detail.html">Vivamus finibus frin fil anidi</a></h6>
+                                        <h6 class="title"><a href="series-detail.html">Vivamus finibus frin fil anidi</a></h6>
                                         <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
-                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                        <a href="#"><span class="tag">PHP</span></a> | 
+                                        <a href="#"><span class="tag">12 Lessons</span></a> | 
+                                        <a href="#"><span class="tag">Beginner</span></a>
                                     </div>
                                 </div><!-- /Blog Thumb End -->
                             </div>
@@ -310,9 +283,11 @@
                                         <img src="extra-images/blog-thumb-4.jpg" alt=""> 
                                     </figure>
                                     <div class="text">
-                                        <h6 class="title"><a href="blog-detail.html">Lorem ipsum lobortis praesent</a></h6>
+                                        <h6 class="title"><a href="series-detail.html">Lorem ipsum lobortis praesent</a></h6>
                                         <p>Lorem ipsum lobortis praesent auctor euismod torquent per, neque commodo malesuada cubilia scelerisque pharetra</p>
-                                        <a class="readmore-btn th-cl icon-btn" href="#">Read More</a>
+                                        <a href="#"><span class="tag">PHP</span></a> | 
+                                        <a href="#"><span class="tag">12 Lessons</span></a> | 
+                                        <a href="#"><span class="tag">Beginner</span></a>
                                     </div>
                                 </div><!-- /Blog Thumb End -->
                             </div>
