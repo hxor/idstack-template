@@ -88,6 +88,16 @@ section{
 .main-contant{
     overflow: hidden;
 }
+.tag {
+    border: 2px solid #4b6fff;
+    border-radius: 25px;
+    background-color: #4b6fff;
+    color: white;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
 /*
     ==============================================================
      HOME PAGE CSS START 
