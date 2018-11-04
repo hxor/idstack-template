@@ -83,20 +83,20 @@ section,
 figure,
 figcaption,
 footer{
-	display:block;
+	display:block;	
 }
 audio,
 video,
 canvas{
 	float:left;
-	width:100%;
+	width:100%;	
 }
 ul {
   margin:0px;
   padding:0px;
 }
 li {
-
+    
     list-style: none;
 }
 ul ul {
@@ -130,10 +130,7 @@ figure {
 .thumb img,
 figure img{
 	float:left;
-	width:50%;
-  margin-left: 40px;
-  margin-top: 80px;
-  /* diganti risma */
+	width:100%;
 }
 img {
     max-width: 100%;
@@ -142,7 +139,7 @@ strong {
     color: #3d3d3d;
 }
 iframe {
-    /* float: left; */
+    float: left;
     width: 100%;
     border: none;
 }
@@ -207,7 +204,7 @@ form p {
 }
 form p span i {
     top: 13px;
-    left: 16px;
+    left: 16px;    
     color: #474747;
     position: absolute;
 }
@@ -236,7 +233,7 @@ table > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 2px solid #d2d2d2;
 }
-table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > th, table > thead:first-child > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > td
+table > caption + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > th, table > thead:first-child > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > td 
 {
 	border-bottom: 0;
 }
@@ -271,7 +268,7 @@ address {
     margin-bottom: 30px;
 }
 .pb-0{
-    padding-bottom:0;
+    padding-bottom:0; 
 }
 .overflow-text{
     float: none;
@@ -284,7 +281,7 @@ address {
 .title{
     float: left;
     width: 100%;
-    margin:0;
+    margin:0; 
     /* line-height: normal; */
 }
 .pd-0{
@@ -722,7 +719,7 @@ address {
   .mb-xs-130{margin-bottom:130px !important}
   .mb-xs-140{margin-bottom:140px !important}
   .mr-xs-0{margin-right:0 !important}
-
+  
   .p-xs-0{padding:0!important}
   .pt-xs-0{padding-top:0!important}
   .pt-xs-10{padding-top:10px}
@@ -754,7 +751,7 @@ address {
   .pb-xs-120{padding-bottom:120px}
   .pb-xs-130{padding-bottom:130px}
   .pb-xs-140{padding-bottom:140px}
-
+  
   .plr-xs-0{padding-left:0;padding-right:0;}
 }
 @media only screen and (max-width:480px) {
@@ -819,7 +816,7 @@ address {
   .pb-xxs-120{padding-bottom:120px}
   .pb-xxs-130{padding-bottom:130px}
   .pb-xxs-140{padding-bottom:140px}
-
+  
   .pl-xxs-10 {padding-left:10px;}
 }
 
@@ -843,8 +840,8 @@ address {
 .font-text {color:#6b6d6f;}
 
 
-.a-dark{color:#101010;}
-.a-white{color:#fff;}
+.a-dark{color:#101010;} 
+.a-white{color:#fff;} 
 .a-inv {color:#6b6d6f}
 .a-blue {color:#37a2d6}
 
@@ -1078,6 +1075,12 @@ input[type="submit"].ps-middle{
   position: absolute;
 }
 
+.one{
+  float: left;
+max-width: 70%;
+padding-top: 100px;
+padding-left: 100px;
+}
 
 
 .label{
@@ -1089,5 +1092,9 @@ input[type="submit"].ps-middle{
   line-height: 1;
   font-weight: normal;
   border-radius: 50px;
-  border: 1px solid #ececec;
+  border: 1px solid #ececec; 
 }
+
+
+
+
