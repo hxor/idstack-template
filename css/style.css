@@ -112,12 +112,14 @@ section{
 .oscar-header-1 {
     padding: 0;
     /* background: red; */
-    min-height: 10vh;
+    min-height: 100vh;
     position: relative;
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image:url('../extra-images/full-banner-img.jpg');
 }
+
 .banner-header{
     background-color: transparent;
     background-image:none;
